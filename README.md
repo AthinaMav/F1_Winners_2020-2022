@@ -1,6 +1,6 @@
 # GP_Winners_2020-2022
 
-Small Java project that asks user for input (Year, Grand Prix) and provides them with the names of the driver and team that won. 
+Simple Java project that asks user for input (Year, Grand Prix) and provides them with the names of the driver and team that won. 
 The data comes from a csv file and is stored in an ArrayList of Race objects.
 Before the program iterates through the ArrayList, the input is validated with 2 if conditions. One checks if the year provided is among 2020-2022 and the second checks if the particular Grand Prix was held during 2020-2022 seasons
 
