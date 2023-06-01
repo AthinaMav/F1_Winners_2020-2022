@@ -68,7 +68,7 @@ public class Main {
             if (grand_prix.contains(circuit)) {
                 validCircuit = true;
             } else {
-                System.out.println("Please, enter valid Grand Prix name. ");
+                System.out.println("Please, enter a Grand Prix that was held in the 2020-2022 seasons. ");
             }
         } while (!validCircuit);
 
