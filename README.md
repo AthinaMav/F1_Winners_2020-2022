@@ -6,3 +6,5 @@ Before the program iterates through the array list, the input is validated with 
 name is accurate.
 Once the input is validated, the program iterates though the ArrayList and prints the winner driver and team.
 There's another if condition here checking if the year and circuit match cause even if the user gives accurate year and circuit, it doesn't mean that said Grand Prix took place in that year.
+
+The validity of the user input for the Grand Prix is determined by the names from the official F1 site https://www.formula1.com/en/results/archive-1950-2016.html
