@@ -47,6 +47,8 @@ public class Main {
         boolean validYear = false;
 
 
+
+
         do {
             System.out.println("Please enter Year and Grand Prix");
             System.out.print("Year: ");
@@ -72,7 +74,9 @@ public class Main {
             }
         } while (!validCircuit);
 
-        who_won(year, circuit);
+        getWinner(year, circuit);
+
+
     }
 
     /** The user is asked to provide input, the who_won method will only be called once the data requested
@@ -83,7 +87,7 @@ public class Main {
 
 
 
-    public static void who_won(String year, String circuit) {
+    public static void getWinner(String year, String circuit) {
         String driver = "";
         String team = "";
         Boolean found = false;
@@ -96,7 +100,7 @@ public class Main {
                 driver = stat.getDriver();
                 team = stat.getTeam();
                 found = true;
-                System.out.println(driver + " with " + team);
+                System.out.println(driver + " with " + team + " won.");
                 break;
 
             }
