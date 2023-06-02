@@ -1,4 +1,4 @@
-# GP_Winners_2020-2022
+# F1_Winners_2020-2022
 
 Simple Java project that asks user for input (Year, Grand Prix) and provides them with the names of the driver and team that won. 
 The data comes from a csv file and is stored in an ArrayList of Race objects.
